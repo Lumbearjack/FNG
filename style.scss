@@ -120,16 +120,17 @@ nav ul li{
 		background:rgba(0,0,0,1);
 		margin:auto;
 		text-align: center;
-		padding:1rem;
+		padding:1rem 0.5rem;
 		text-transform: uppercase;
 		text-decoration: none;
 		box-shadow:0px 4px 16px rgba(0,0,0,0.6);
 	&:hover{
+		z-index:10;
 		border-top:1px solid #494949;
 		background:#383838;
 		border-bottom:2px solid red;
 		box-shadow:0px 8px 24px rgba(0,0,0,0.9);
-		transform:scaleY(1.2);
+		// transform:scaleY(1.1);
 
 		}
 		&:focus{
